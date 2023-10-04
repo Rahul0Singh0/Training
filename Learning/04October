@@ -1,0 +1,11 @@
+#to take two input at one line
+l,b = map(int, input().split())
+print(l*b)
+
+#add two number without typecasting
+l = input(10+20)
+print(eval(l))
+
+l = eval(input())
+b = eval(input())
+print(l+b)
