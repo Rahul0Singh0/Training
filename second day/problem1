@@ -1,0 +1,11 @@
+//Problem ALice And Bob
+PA = float(input())
+I = float(input())
+year = int(input())
+SI = (PA * I  * year)/100
+amt = SI + PA
+Dis = (SI * 2)/100
+DA = amt - Dis
+print(PA)
+print(Dis)
+print(DA)
