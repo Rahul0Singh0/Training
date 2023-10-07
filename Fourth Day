@@ -45,3 +45,25 @@ def armst(num):
     else:
         print("Not")
 armst(153)
+
+
+//Optimize int(log10(num)+1) gives digit of given number 
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int num,sum=0;
+    cin>>num;
+    double power = log10(num);
+    int n = num;
+    while(n) {
+        sum += pow((n%10),(int)power+1);
+        n/=10;
+    }
+    if(num == sum){
+        cout<<"Armstrong";
+    }
+    else{
+        cout<<"Not";
+    }
+}
