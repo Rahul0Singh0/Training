@@ -1,0 +1,19 @@
+l1 = []
+n = int(input())
+for i in range(n):
+    li = int(input())
+    l1.append(li)
+print(l1)
+print("Adding Extra Elements")
+l1.extend([56, 2, 789, 456])
+print(l1)
+
+input: - 
+3
+1
+2
+3
+Ouput:-
+[1, 2, 3]
+Adding Extra Elements
+[1, 2, 3, 56, 2, 789, 456]
