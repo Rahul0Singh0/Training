@@ -1,0 +1,51 @@
+str = "Hi Hello"
+print("Repeatition",str*3)
+print(str+" It's Fine")
+print("Slice ",str[1:4])
+print("Operator.......")
+print("I"in str)
+print("R"in str)
+
+print("Formatting Strings")
+str = '''Are you guys 
+Listening'''
+print(str)
+print("Escape Single Quotation")
+print("Hi how's it")
+print("hi how\'s it")
+
+print("Inbuilt Strings.....")
+str = "hi guys It's working now"
+str2 = "HI GUYS"
+print(str.upper())
+print(str1.lower())
+
+write a python code to 
+str = "Hello World"
+# print(str[::-1]) #str[start:end:condition]
+for i in range((len(str)-1),-1,-1):
+    print(str[i],end='')
+
+reverse string ex:- i am student ==> student am i
+
+def reverseByWords(s):
+    s = s.split(" ")
+    left = 0
+    right = len(s)-1
+    while left <= right:
+        s[left], s[right] = s[right], s[left]
+        left += 1
+        right -= 1
+    s = " ".join(s)
+    return s
+s = input()
+print(reverseByWords(s))    
+    
+    
+    
+    
+    
+    
+    
+    
+
