@@ -141,5 +141,96 @@ print(flag)
     
 
 
-    
+#Afterr lunch
+# string = input()
+# s = ""#string is immutable
+# for i in range(len(string)):
+#     if string[i].isupper():
+#         s += string[i].lower();
+#     else:
+#         s += string[i].upper();
+# print(s)
+
+# string = input()
+# ans = ""
+# c = 1
+# for i in range(1,len(string)):
+#     if string[i-1] == string[i]:
+#         c += 1
+#     else:
+#         ans += string[i-1]
+#         if c > 0:
+#           ans += str(c)
+#         c = 1
+# ans += string[-1]
+# if c > 0:
+#     ans += str(c)
+# print(ans)
+
+# t=int(input())
+# for i in range(t):
+#     string = input()
+#     ans = "."
+#     for j in string:
+#         if string.count(j) > 1:
+#             ans = j
+#             break
+#     print(ans) 
+
+# n = int(input())
+# for i in range(n):
+#     l = input().strip().split()#convert into list
+#     c = 0
+#     v = 0
+#     for j in l:
+#         for k in j:
+#             if k in ['a','e','o','u','i','A','E','I','O','U']:
+#                 v+=1
+#             else:
+#                 c+=1
+#     print(len(l),v,c)
+
+# def anagram(s1,s2):
+#     a=list(s1)
+#     b=list(s2)
+#     a.sort()
+#     b.sort()
+#     if a==b:
+#         return True
+#     else:
+#         return False
+# t = int(input())
+# for i in range(t):
+#     s1,s2 = map(str,input().split())
+#     if(anagram(s1,s2)==True):
+#         print("True")
+#     else:
+#         print("False")
+
+# n = int(input())
+# string = input()
+# flag = "YES"
+# string = string.upper()
+# for i in range(65,91):
+#     if chr(i) not in list(string):
+#         flag = "NO"
+# print(flag)
+
+# for i in range(int(input())):
+#     s  =input()
+#     if len(s)<=10:
+#         print(s)
+#     else:
+#         print(s[0]+str(len(s)-2)+s[-1])
+
+
+s = "codeforces"
+for i in range(int(input())):
+    s1 = input()
+    c=0
+    for j in range(len(s)):
+        if s[j] != s1[j]:
+            c+=1
+    print(c)
+
 
