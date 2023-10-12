@@ -1,0 +1,94 @@
+#OOPs
+
+
+# class Hello:
+#     def print(self):
+#         print("Basics of Class")
+    
+# H = Hello()
+# print("Called by using class object")
+# Hello.print(H)
+# print("Called by using object")
+# H.print()
+
+# class Computer:
+#     def __init__(self,ram):
+#         self.ram = ram
+#     def display(self):
+#         print(self.ram)
+# c = Computer(10)
+# #print(c)//print address of this object ==> <__main__.Computer object at 0x0000021D41180FA0>
+# print(c.ram)
+# c.display()
+
+# class Computer:
+#     def __init__(self):
+#         print("First")
+#     def __init__(self):#in python, it will support constructor overloading with same name and parameter
+#         print("Second")
+#     def display(self):
+#         print("First method")
+#     def display(self):# It will also support method overloading with same name and parameter and no. of parameter
+#         print("Second method")
+# c = Computer()
+# c.display()
+
+# class Car:
+#     wheels = 4 #class variable
+#     def __init__(self):
+#         self.mil = 10 #instance variable
+#         self.com = "BMW" #instance variable
+# c1 = Car()
+# c2 = Car()
+# c1.mil = 8
+# Car.wheels = 5#changes for all instances of a class
+# c1.wheels=2#changes on that particular object c1
+# print(c1.mil,c1.com,c1.wheels)
+# print(c2.mil,c2.com,c2.wheels)
+
+#class Methods using @classmethod
+
+# class Student:
+#     College = "NIET"#class data member
+#     def __init__(self,m1,m2,m3):
+#         self.m1 = m1
+#         self.m2 = m2
+#         self.m3 = m3
+#     def avg(s):#first argument from right side is work as self inbuilt argument
+#         return (s.m1+s.m2+s.m3)/3
+#     @classmethod #decorator or annotation
+#     def info(cls):#cls inbuilt argument, we can also use other user defined argument place of cls
+#         return cls.College
+#     def base():#not mendatory to pass the argument
+#         print("Static method")
+# s1 = Student(2,3,4)
+# print(s1.avg())
+# print(Student.info())
+# Student.base()
+
+#sum of two numbers using static method
+
+
+#WAP to check eligibility method to vote
+# class Vote:
+#     def ageClassifier(age):
+
+#Count number of objects
+
+#default constructor
+# class Student:
+#     roll_num = 4552
+#     name = "Faiz"
+#     def
+
+#inbuilt clas attribute
+# class Student:
+#     def __init__(self,name,id,age):
+#         self.name = name
+#         self.id = id
+#         self.age = age
+#     def display(self):
+#         print()
+
+
+#Inheritance
